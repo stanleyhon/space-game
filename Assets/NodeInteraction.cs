@@ -15,10 +15,4 @@ public class NodeInteraction : MonoBehaviour {
 	
 	}
 
-	void OnMouseOver () {	
-		if (Input.GetMouseButton(1)) {
-			SquadInteraction squad = GM.selected.GetComponent<SquadInteraction>(); 
-			squad.target = transform.position;
-		}
-	}
 }
