@@ -8,7 +8,7 @@ namespace Application {
         public static void Main () {
             System.Console.WriteLine("Running tests!");
             TestGameState.run ();
-            System.Console.WriteLine("All tests passed!");
+            System.Console.WriteLine("Tests Finished!");
         }
     }
 }
